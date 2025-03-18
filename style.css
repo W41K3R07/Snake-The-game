@@ -1,0 +1,63 @@
+html,body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  border: 1px solid white;
+}
+#wynik {
+  font-size: 30px;
+  font-style:inherit ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#controls {
+  display: flex;
+  gap: 10px; 
+}
+
+#controls img {
+  height: 60px;
+  width: 60px;
+}
+.uno,.dos,.tres{
+  display: none;
+}
+.jeden,.dwa,.trzy{
+  display: block;
+}
+#blue{
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+#green{
+  height: 50px;
+  width: 50px;
+  background-color: green;
+}
+#purple{
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+}
+#aqua{
+  height: 50px;
+  width: 50px;
+  background-color: mediumaquamarine;
+}
+#kolory{
+  display: flex;
+  gap: 10px; 
+}
+h2{
+  color:white;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WĄŻ wersja 2.1</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div id="wynik">PRESS START TO START :> </div>
+    <br />
+    <canvas width="400" height="400" id="plansza"></canvas>
+    <br>
+    <div id="controls">
+      <span><img id="uno" class="uno"src="gwiazdka.png" alt="gwiazdka1"></span>
+      <span><img id="dos" class="dos" src="gwiazdka.png" alt="gwiazdka2"></span>
+      <span><img id="tres" class="tres" src="gwiazdka.png" alt="gwiazdka3"></span>
+    </div>
+<br>
+    <input id="start" type="button" value=" START " onclick="restart_game()" />
+
+    <h2>Change Color: </h2>
+    <div id="kolory">
+    <button id="blue" onclick="change_colorB()"></button>
+    <button id="green" onclick="change_colorG()"></button>
+    <button id="purple" onclick="change_colorP()"></button>
+    <button id="aqua" onclick="change_colorA()"></button>
+  </div>
+
+    <script src="snake.js"></script>
+
+   
+
+  </body>
+</html>
