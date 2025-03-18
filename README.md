@@ -1,2 +1,2 @@
 # Snake-The-game
-Gra Snake
+Gra Snake w java script 
